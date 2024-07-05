@@ -1,4 +1,10 @@
- 
+// burger
+$(document).ready(function() {
+   $('.js-burger').click(function() {
+      $(this).toggleClass('active');
+      $('.burger__container').toggleClass('active');
+   });
+ });
 // swiper cards
 const swiperCards = new Swiper('.js-slider', {
    // Optional parameters

@@ -2,7 +2,7 @@
   "name": "abcp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "jquery.js",
   "scripts": {
     "sass:watch": "node-sass --output-style compressed --watch src/scss -o src/css",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,10 +19,6 @@
   },
   "homepage": "https://github.com/OlegTiP/quality#readme",
   "dependencies": {
-    "node-sass": "^9.0.0",
-    "swiper": "^11.1.4"
+    "node-sass": "^9.0.0"
   }
 }
-
-
-// npm run sass:watch
